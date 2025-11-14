@@ -1,0 +1,128 @@
+/* MAIN LAYOUT */
+.main-container {
+  display: flex;
+  height: 100vh;
+  background: #eef7ff;
+  font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 160px;
+  background: white;
+  padding: 15px;
+  border-right: 3px solid #9b59b6;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tool-button {
+  padding: 10px 14px;
+  background: #b18aff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 130px;
+  text-align: left;
+}
+
+.tool-button:hover {
+  background: #9a6cff;
+}
+
+/* CONTENT AREA */
+.content-area {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* INPUT FORM */
+.form-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* CERTIFICATE PREVIEW */
+.certificate-preview {
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* REDUCED CERTIFICATE SIZE */
+.certificate-box {
+  width: 490px;
+  height: 300px;
+  background: white;
+  padding: 30px;
+  margin: 0 auto;
+  border: 3px solid #833d9f;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* TEXT STYLES */
+.cert-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cert-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.cert-name {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cert-event {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.cert-date {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* DOWNLOAD BUTTON BELOW CERTIFICATE */
+.download-btn {
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: #833d9f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.download-btn:hover {
+  background: #573bb8;
+}
