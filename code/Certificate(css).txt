@@ -1,0 +1,150 @@
+/* MAIN LAYOUT */
+.main-container {
+    display: flex;
+    height: 100vh;
+    background: #eef7ff;
+    font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR (REDUCED HEIGHT + CLEAN LOOK) */
+.sidebar {
+    width: 220px;
+    background: white;
+    padding: 15px;
+    border-right: 4px solid #4ba3ff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* BUTTON GROUP */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* TOOL BUTTON — compact purple */
+.tool-button {
+    padding: 8px 14px;
+    background: #b18aff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+    /* smaller width */
+    width: 150px;
+    text-align: left;
+}
+
+.tool-button:hover {
+    background: #9a6cff;
+}
+
+/* RIGHT SIDE CONTENT AREA */
+.content-area {
+    flex: 1;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+/* INPUT FORM */
+.form-section {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    width: 420px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* GENERATE BUTTON */
+.generate-btn {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background: #b18aff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background: #9a6cff;
+}
+
+/* CERTIFICATE PREVIEW */
+.certificate-preview {
+    margin-top: 25px;
+}
+
+.certificate-box {
+    width: 750px;         /* increased size */
+    height: 520px;
+    background: white;
+    padding: 40px;
+    border: 3px solid #4ba3ff;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* TEXT STYLES */
+.cert-title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.cert-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cert-name {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cert-event {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.cert-date {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn {
+    padding: 12px 18px;
+    background: #6a4ad3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-btn:hover {
+    background: #573bb8;
+}
+
+
